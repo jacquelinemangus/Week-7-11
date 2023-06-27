@@ -47,7 +47,7 @@ public class ProjectsApp {
 	}
 
 	private void createProject() {
-		String projectName = getStringInput("Enter the project name.");
+		String projectName = getStringInput("Enter the project name");
 		BigDecimal estimatedHours = getDecimalInput("Enter the estimated hours");
 		BigDecimal actualHours = getDecimalInput("Enter the actual hours");
 		Integer difficulty = getIntInput ("Enter the project difficulty (1-5)");

@@ -4,7 +4,7 @@ package projects.exception;
 public class DbException extends RuntimeException {
 
 	public DbException() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public DbException(String message) {

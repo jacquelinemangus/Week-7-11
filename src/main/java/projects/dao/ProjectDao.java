@@ -8,9 +8,8 @@ import java.sql.SQLException;
 import projects.exception.DbException;
 import java.math.BigDecimal;
 
-
+@SuppressWarnings("unused")
 public class ProjectDao extends DaoBase {
-	@SuppressWarnings("unused")
 	private static final String CATEGORY_TABLE= "category";
 	private static final String MATERIAL_TABLE= "material";
 	private static final String PROJECT_TABLE= "project";
